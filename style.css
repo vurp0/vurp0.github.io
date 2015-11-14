@@ -1,0 +1,19 @@
+.coolbox {
+  -webkit-box-shadow: 0px 10px 53px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 53px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 53px -7px rgba(0,0,0,0.75);
+  
+  animation-duration: 4s;
+  animation-name: yuck;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes yuck {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
